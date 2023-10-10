@@ -1,0 +1,47 @@
+/* hero section starts  */
+/* small device  600px below */
+@media only screen and (max-width: 600px) {
+    
+
+
+    .sliderImg {
+        height: 350px !important;
+        object-fit: cover !important;
+    }
+    
+  
+    .absolute1{
+        position: absolute;
+        right: 50%;
+             transform: translate(0,0%);  
+       }
+    
+}
+
+
+/* large device  600px and up) */
+@media only screen and (min-width: 600px) {
+    .relative {
+        position: relative;
+    }
+
+   
+    .absolute1{
+        position: absolute;
+
+        left: 50%;
+             transform: translate(-50%,-50%);  
+       }
+
+   
+
+    .sliderImg {
+        height: 100vh !important
+    }
+
+    
+
+
+}
+
+/* hero section end  */

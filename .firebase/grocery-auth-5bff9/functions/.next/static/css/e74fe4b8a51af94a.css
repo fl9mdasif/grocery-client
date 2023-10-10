@@ -1,0 +1,1 @@
+@media only screen and (max-width:600px){.sliderImg{height:350px!important;-o-object-fit:cover!important;object-fit:cover!important}.absolute1{position:absolute;right:50%;transform:translate(0)}}@media only screen and (min-width:600px){.relative{position:relative}.absolute1{position:absolute;left:50%;transform:translate(-50%,-50%)}.sliderImg{height:100vh!important}}
